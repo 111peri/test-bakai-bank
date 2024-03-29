@@ -1,0 +1,22 @@
+.icon-button {
+    border: none; 
+    background-color: transparent; 
+    padding: 0; 
+    cursor: pointer; 
+    outline: none; 
+    
+}
+
+
+.icon-image {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+    fill: white;
+}
+
+.dark-mode {
+    --background-color-light: #666; 
+    --text-color-light: #333;
+  }
+  
