@@ -1,0 +1,35 @@
+.page-container {
+    position: relative; 
+    margin-top: 15px;
+    z-index: 999; 
+
+}
+
+
+.links-container {
+    
+    top: 20px; 
+    left: 20px; 
+    display: flex;
+    padding-left: 40px;
+    padding-top: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.link-item {
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+    padding: 10px; 
+}
+
+.link-item:first-child {
+    border-top: none; 
+}
+
+.link-item:hover {
+    background-color: #f0f0f0;
+}
